@@ -1,7 +1,7 @@
 ---
 template.name: "My Toolchain"
-template.description: "With this toolchain, you can complete the advocate course.\n\nTo get started, click **Create**."template.gettingStarted: "**Your toolchain is ready!**\n**Quick start:** Commit a change to the Git repo to trigger a new build and deployment. For step-by-step instructions, see the [tutorial](https://www.ibm.com/devops/method/tutorials/tutorial_toolchain_cfv2?task=2) for this toolchain."
-template.gettingStarted: "**Your toolchain is ready!**\n**Quick start:** Commit a change to the Git repo to trigger a new build and deployment. For step-by-step instructions, see the [Become a Garage Method for Cloud advocate course](content/course/garage-method-for-cloud-advocate/0) to use this toolchain."
+template.description: "With this toolchain, you can complete the advocate course.\n\nTo get started, click **Create**.
+template.gettingStarted: "**Your toolchain is ready!**\n**Quick start:** Commit a change to the Git repo to trigger a new build and deployment. For step-by-step instructions, see the [Become a Garage Method for Cloud advocate course](https://www.ibm.com/cloud/garage/content/course/garage-method-for-cloud-advocate/0) to use this toolchain."
 deploy.title: "Sample Deploy Stage"
 deploy.description: "sample toolchain"
 deploy.longDescription: "The Delivery Pipeline automates continuous deployment."
