@@ -11,6 +11,7 @@ template:
   required:
     - sample-build
     - sample-repo
+    - analytics
   info:
     git url: >-
       [https://github.com/rlschacher777/simple-toolchain-hosted](https://github.com/rlschacher777/simple-toolchain-hosted)
@@ -74,6 +75,16 @@ services:
   messaging:
     service_id: slack
     $ref: slack.yml
+  analytics:
+    service_id: customtool
+    parameters:
+      name: Analytics
+      description: Usage Details
+      type: Google Analytics
+      lifecyclePhase: LEARN
+      imageUrl: ''
+      documentationUrl: 'https://support.google.com/analytics'
+      dashboard_url: 'https://analytics.google.com/'
 form:
   pipeline:
     parameters:
