@@ -6,7 +6,7 @@ template:
     $ref: "#/messages/template.name"
   description:
     $ref: "#/messages/template.description"
-  header: custom_toolchain.png
+  header: '![Image showing preview of the toolchain](custom_toolchain.png)' 
   icon: icon.svg
   required:
     - sample-build
